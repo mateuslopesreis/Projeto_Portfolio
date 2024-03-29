@@ -44,6 +44,12 @@ function App() {
     </section>
 
 
+    <section>
+      <Hero/>
+
+    </section>
+
+
     
     </>
   )
