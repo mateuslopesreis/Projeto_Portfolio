@@ -5,6 +5,7 @@ import { Drawer } from "./components/drawer"
 import { Menu } from "./components/Menu"
 import { Carousel } from "./components/Carousel"
 import { Hero } from "./components/hero"
+import { Card } from "./components/Card"
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
       </div>
 
 
-      <div className="m-20 tracking-[.25em]">
+      <div className="m-20 ml-1 tracking-[.25em]">
       <h1 className="text-2xl m-8">Olá, meu nome é Mateus</h1>
 
       
@@ -47,6 +48,47 @@ function App() {
     <section>
       <Hero/>
 
+    </section>
+
+    <section className=" min-h-screen bg-base-204">
+
+    <div className="mb-12 mt-20 ml-5">
+    <h1 className="text-4xl font-bold	">Projetos</h1>
+    </div>
+
+      <div className="grid grid-cols-4 gap-4 ml-4">
+
+      
+      
+    <div >
+        <Card>
+         
+        </Card>
+       
+      </div>
+
+      <div >
+        <Card>
+         
+        </Card>
+        
+      </div>
+
+      <div>
+        <Card>
+         
+        </Card>
+        
+      </div>
+
+      <div>
+        <Card>
+         
+        </Card>
+        
+      </div>
+      
+      </div>
     </section>
 
 
