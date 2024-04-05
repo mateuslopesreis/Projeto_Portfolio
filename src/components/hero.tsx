@@ -6,7 +6,7 @@ export function Hero(){
       
         <div className="hero min-h-screen bg-base-200">
   <div className="hero-content flex-col lg:flex-row-reverse">
-    <img src={perfil} className="max-w-sm rounded-lg shadow-2xl" />
+    <img src={perfil} className="max-w-60 rounded-lg shadow-2xl ml-4 mr-6" />
     <div>
     <h1 className="text-4xl font-bold">Sobre</h1>
       
